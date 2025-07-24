@@ -12,21 +12,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
-<body class="animate-on-scroll">
+<body>
     
-    <!-- <div class="logo"><h1>Dreams</h1></div> -->
-    <header class="header">
-        <nav class="navbar">
-            <a href="#home" class="active">Home </a>
-            <a href="#about">About</a>
-            <a href="#services"> Services</a>
-            <a href="#portfolio">Testimonials</a>
-            
-            <!-- <a href="pixel.html">
-                <button class="btn">Login</button>
-            </a> -->
-        </nav>
-    </header>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="">Cherix Eats</a>
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+        </ul>
+        <div class="nav_btns">
+            <button class="btn"></button>
+            <button class="btn"></button>
+        </div>
+    </nav>
     <div class="container">
         <div class="left-text">
             <!-- <div class="socials">
@@ -49,7 +56,7 @@
                 </a>
                 <button class="btn-2">Book a table</button>
            </div>
-           <p >
+           <p>
                 <h2 style="font-size: small;">Lunch</h4>
                 <h4 class="comment">12:00am - 4:00pm</h4>
                 <i class="fa-solid fa-arrow-right-long" style="color: hsla(143, 74%, 57%, 0.911);"></i>
@@ -58,11 +65,11 @@
             
             
             <div class="image-collage">
-                <img src="pexels-ella-olsson-572949-1640772.jpg" alt="Image 1">
+                <img src="pexels-ella-olsson-572949-1640772.jpg" alt="Image 1" id="resp-img">
                 <img src="pexels-jonathanborba-2983099.jpg" alt="Image 2">
-                <img src="pexels-nerfee-mirandilla-1656989-3186654.jpg" alt="Image 3">
+                <img src="pexels-nerfee-mirandilla-1656989-3186654.jpg" alt="Image 3" id="resp-img">
                 <img src="pexels-valeriya-1860204.jpg" alt="Image 4">
-        
+                <!-- <img src="Home-cherix.jpg" alt=""> -->
             </div>
             <!-- <button class="toggle-button">Toggle Theme</button> -->
     </div>
@@ -70,7 +77,7 @@
     <div class="below-container">
         <section class="hero">
             <div class="image-container">
-                <img src="collage 2.jpg" alt="Image 5">
+                <img src="about.jpg" alt="Image 5">
             </div>
             <div class="text-container">
                 <h2 class="disc-2">Discover Our Story</h2>
@@ -79,11 +86,9 @@
                     Quae consequatur doloribus ad dicta debitis quam tempora. 
                     Cum quam soluta doloribus esse at hic sunt animi.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Accusamus quos distinctio earum ex? Non obcaecati, 
-                    vitae numquam eligendi eius rerum earum! Omnis placeat quia, 
-                    temporibus alias consequatur sed fugit iste.
+                    Accusamus quos distinctio earum ex? Non obcaecati.
                 </p>
-                <button>Read More</button>
+                <button class="b-read">Read More</button>
             </div>
         </section>
 
@@ -166,11 +171,11 @@
                 If you want to reserve a table in our restaurant, contact us and we will <br>
                 attend to you quickly. with our 24/7 chat service.
                <div class="button">
-                <a href="">
+               <a href="tel:+234 908 400 0494">
                     <button class="btn-1">
                         contact us now
                     </button>
-                </a>
+               </a>
                
                </div>
             </p>
@@ -206,7 +211,7 @@
                     </ul>
                 </div>
                 <div class="footer-column-adresss">
-                    <h3>Adress</h3>
+                    <h3>Address</h3>
                     <p>Los Angeles - California USA</p>
                     <p>26th Cherix Avenue</p>
                     <p>+234-9084000494</p>
